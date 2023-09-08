@@ -1,0 +1,377 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    /* width: 960px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 128, 128, 0.267)
+}
+.body {
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 1%;
+}
+/* Menú Superior */
+
+.menuSuperior {
+    list-style-type: none;
+    text-align: center;
+    background-color: black;
+}
+.menuSuperior li {
+    display: inline-block;
+    padding: 30px;
+}
+.menuSuperior a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.titulo {
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.subtitulo {
+    color: black;
+    font-size: 3rem;  
+}
+.personajes_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.athena {
+    padding: 1rem;
+    width: 30%;
+}
+.athena img {
+    width: 101%;
+    
+}
+.seiya {
+    padding: 1rem;
+    width: 30%;
+}
+.seiya img {
+    width: 100%;
+}
+.hyoga {
+    padding: 1rem;
+    width: 30%;
+}
+.hyoga img {
+    width: 100%;
+}
+.personajes_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline; 
+}
+.Shiryu {
+    padding: 1rem;
+    width: 30%;
+    
+}
+.Shiryu img {
+    width: 101%;
+}
+.Shun {
+    padding: 1rem;
+    width: 30%;
+}
+.Shun img {
+    width: 100%;
+}
+.Ikki {
+    padding: 1rem;
+    width: 30%;
+}
+.Ikki img {
+    width: 100%;
+}
+.videos {
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3vh;
+    clear: both;
+    }
+
+    
+@media(min-width:576px){
+.personajes_1 {
+    flex-direction: column;
+}
+.athena {
+    width: 100%;
+}
+.seiya {
+    width: 100%;
+}
+.hyoga {
+    width: 100%;
+}
+.personajes_2 {
+    flex-direction: column;
+}
+.Shiryu {
+    width: 100%;
+}
+.Shun {
+    width: 100%;
+}
+.Ikki {
+    width: 100%;
+}
+
+}
+
+@media(min-width:768px) {
+ 
+.personajes_1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.athena {
+    padding: 1rem;
+    width: 30%;
+}
+.athena img {
+    width: 101%;
+    
+}
+.seiya {
+    padding: 1rem;
+    width: 30%;
+}
+.seiya img {
+    width: 100%;
+}
+.hyoga {
+    padding: 1rem;
+    width: 30%;
+}
+.hyoga img {
+    width: 100%;
+}
+.personajes_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline; 
+}
+.Shiryu {
+    padding: 1rem;
+    width: 30%;
+    
+}
+.Shiryu img {
+    width: 101%;
+}
+.Shun {
+    padding: 1rem;
+    width: 30%;
+}
+.Shun img {
+    width: 100%;
+}
+.Ikki {
+    padding: 1rem;
+    width: 30%;
+}
+.Ikki img {
+    width: 100%;
+
+}
+}
+
+/* Escritorio */
+@media(min-width:992px) {
+
+.personajes_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.athena {
+    padding: 1rem;
+    width: 30%;
+}
+.athena img {
+    width: 101%;
+    
+}
+.seiya {
+    padding: 1rem;
+    width: 30%;
+}
+.seiya img {
+    width: 100%;
+}
+.hyoga {
+    padding: 1rem;
+    width: 30%;
+}
+.hyoga img {
+    width: 100%;
+}
+.personajes_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 1rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline; 
+}
+.Shiryu {
+    padding: 1rem;
+    width: 30%;
+    
+}
+.Shiryu img {
+    width: 101%;
+}
+.Shun {
+    padding: 1rem;
+    width: 30%;
+}
+.Shun img {
+    width: 100%;
+}
+.Ikki {
+    padding: 1rem;
+    width: 30%;
+}
+.Ikki img {
+    width: 100%;
+    }
+}
+/* Pantallas grandes */
+@media(min-width:1200px){
+   
+    }
+/* Flex ejercicio */
+
+    .ej_flex {
+        display: flex;
+        padding: 1rem;
+    }
+    
+    .caja1 {
+       padding: 1rem;
+       width: 30%;   
+    }
+    .caja2 {
+        padding: 1rem;
+        width: 30%;   
+       }
+    .caja3 {
+        padding: 1rem;
+        width: 30%;   
+       }
+    .caja4 {
+        padding: 1rem;
+        width: 30%;   
+       }
+    .caja5 {
+        background-color: darkcyan;
+        padding: 1rem;
+        width: 100%;   
+       }
+    .caja6 {
+        background-color: greenyellow;
+        padding: 1rem;
+        width: 100%;
+    }
+/* Responsive ejercicio */
+.tienda {
+    background-color: aqua;
+    text-align: center;
+    padding: 2rem;
+}
+.tienda img {
+    width: 60%;
+}
+.comunidad {
+    background-color: brown;
+    text-align: center;
+    padding: 2rem;
+}
+.comunidad img {
+    width: 60%;
+}
+.texto {
+    color: azure;
+    font-size: 1.4rem;
+}
+.armaduras_contendor {
+    padding: 1rem;
+}
+.img-chica {
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.btn_nosotros {
+    padding: 1rem;
+}
+.btn_nosotros ul li{
+list-style-type: none;
+display: inline-block;
+text-decoration: none;
+padding: 1rem;
+font-size: 1.4rem;
+}
+
+.contacto_contenido {
+    margin: 1rem;
+    padding: 2rem;
+    width: 80%;
+    text-align: center;
+}
+
+.contacto_input {
+    width: 100%;
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.contacto_btn {
+    width: 30%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
